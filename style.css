@@ -1,0 +1,14 @@
+body {
+  letter-spacing: 2px;
+  background-color: black;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+span {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
